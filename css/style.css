@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: darkgray;
+    /* background-color: darkgray; */
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -111,8 +111,10 @@ main {
     width: 50%;
     margin: 50px auto;
     /* height: 500px; */
-    background-color: burlywood;
-    border: 2px solid black;
+    /* border: 2px solid black; */
+}
+.container .title-2 {
+    line-height: 80px;
 }
 
 
@@ -124,12 +126,22 @@ main {
 
 .second .column {
     width: calc(100% / 3 - 20px);
-    height: 600px;
-    background-color: brown;
+    /* height: 600px; */
+    border: 1px solid lightgray;
+
 }
 
 .user-type {
     text-align: center;
+    border: 1px solid lightgray;
+    padding: 10px;
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .type {
@@ -137,7 +149,6 @@ main {
     font-size: 13px;
     display: flex;
     flex-direction: column;
-    /* justify-content: stretch; */
 }
 
 .column ul {
@@ -153,11 +164,20 @@ main {
     width: 50px;
     padding: 20px;
     margin-left: 20px;
+    margin-bottom: 20px;
 }
 
 .highlights {
     padding: 20px;
     font-size: 13px;
+}
+
+li {
+    padding: 15px 0;
+}
+
+.column div a {
+    margin: 20px;
 }
 
 .sell {

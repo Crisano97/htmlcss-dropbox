@@ -43,11 +43,16 @@ nav ul li a {
     font-size: 15px;
 }
 
-#button {
+.button {
     padding: 10px;
     background-color: #0061ff;
     color: white;
     font-size: 10px;
+    text-align: center;
+}
+
+#small-btn-container {
+    padding: 10px 55px;
 }
 
 
@@ -151,7 +156,7 @@ main {
 }
 
 .type {
-    padding: 20px 0;
+    padding: 20px 10px;
     font-size: 10px;
     display: flex;
     flex-direction: column;
@@ -173,18 +178,26 @@ main {
     margin-bottom: 20px;
 }
 
-.column #button {
-    font-size: 10px;
-    padding: 10px 30px;
+.btn-space {
+    padding-top: 20px;
 }
+
+/* .column #button {
+    font-size: 10px;
+    padding: 10px 20px;
+} */
 
 .highlights {
     padding: 20px 0;
     font-size: 10px;
 }
 
-li {
-    padding: 15px 0;
+.column li {
+    padding: 10px 0;
+}
+
+.type-title , .cost , .idk {
+    padding: 10px 0;
 }
 
 

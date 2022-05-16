@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkgray;
+}
+
+/* HEADER  */
+
+nav {
+    width: 100%;
+    /* height: 100px; */
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+}
+
+nav div {
+    background-color: brown;
+    height: 100px;
+    width: 300px;
+}
+
+/* MAIN */
+
+main {
+    padding-top: 100px;
+}
+
+/* PRIMA SEZ */
+
+.first{
+    width: 100%;
+    background-color: cadetblue;
+    /* position: relative; */
+}
+
+.hero {
+    width: 70%;
+    margin: 0 auto;
+    height: 600px; 
+    background-color: gainsboro;
+    position: relative;
+    bottom: -20px;
+}
+
+.hero .title {
+    width: 100%;
+    height: 30%;
+    background-color: bisque;
+    border: 2px solid white;
+}
+
+.container-top {
+    width: 100%;
+    height: 70%;
+    background-color: bisque;
+    border: 2px solid white;
+    display: flex;
+}
+
+.container-top .desc {
+    width: 30%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.container-top .image {
+    width: 70%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+/* SECONDA SEZ */
+
+.container {
+    width: 60%;
+    margin: 50px auto;
+    /* height: 500px; */
+    background-color: burlywood;
+    border: 2px solid black;
+}
+
+.second .container .title {
+    width: 100%;
+    height: 200px;
+    background-color: chartreuse;
+}
+
+.second .columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.second .column {
+    width: calc(100% / 3 - 20px);
+    height: 600px;
+    background-color: brown;
+}
+
+.sell {
+    width: 100%;
+    height: 200px;
+    background-color: chartreuse;
+
+}
+
+/* TERZA SEZ */
+
+.third .container {
+    display: flex;
+}
+
+.third .container .image {
+    width: 60%;
+    height: 400px;
+    border: 2px solid white;
+}
+
+.third .container .desc {
+    width: 40%;
+    height: 400px;
+    border: 2px solid white;
+
+}
+
+/* QUARTA SEZ */
+
+
+
+.fourth .container .title {
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+}
+
+.fourth .columns {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.fourth .column {
+    width: calc(100% / 3 - 20px);
+    height: 400px;
+    background-color: brown;
+    border: 2px solid white;
+    margin-top: 20px;
+}
+
+/* QUINTA SEZ */
+
+.fifth .phrase {
+    width: 100%;
+    height: 200px;
+    background-color: azure;
+}
+
+/* SESTA SEZ */
+
+.container-bottom {
+    width: 100%;
+    height: 400px;
+    background-color: darkslategray;
+    border: 2px solid white;
+}
+
+/* SETTIMA SEZ */
+
+.seventh .container-bottom {
+    background-color: cornflowerblue;
+    height: 200px;
+}
+
+/* OTTAVA SEZ */
+
+.eighth .container-bottom {
+    background-color: white;
+    height: 400px;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: black;
+    width: 100%;
+}
+
+.ft-container {
+    width: 70%;
+    margin: 0 auto;
+    height: 500px;
+    background-color: beige;
+}

@@ -47,6 +47,7 @@ nav ul li a {
     padding: 10px;
     background-color: #0061ff;
     color: white;
+    font-size: 10px;
 }
 
 
@@ -128,13 +129,16 @@ main {
     width: calc(100% / 3 - 20px);
     /* height: 600px; */
     border: 1px solid lightgray;
-
+    font-size: 10px;
 }
+
+
 
 .user-type {
     text-align: center;
     border: 1px solid lightgray;
     padding: 10px;
+    
 }
 
 .card {
@@ -142,11 +146,13 @@ main {
     height: 100%;
     display: flex;
     flex-direction: column;
+    padding: 25px;
+    font-size: 10px;
 }
 
 .type {
-    padding: 20px;
-    font-size: 13px;
+    padding: 20px 0;
+    font-size: 10px;
     display: flex;
     flex-direction: column;
 }
@@ -156,7 +162,7 @@ main {
 }
 
 .link-buy {
-    padding: 20px;
+    padding: 20px 0;
 }
 
 .line {
@@ -167,18 +173,20 @@ main {
     margin-bottom: 20px;
 }
 
+.column #button {
+    font-size: 10px;
+    padding: 10px 30px;
+}
+
 .highlights {
-    padding: 20px;
-    font-size: 13px;
+    padding: 20px 0;
+    font-size: 10px;
 }
 
 li {
     padding: 15px 0;
 }
 
-.column div a {
-    margin: 20px;
-}
 
 .sell {
     width: 100%;

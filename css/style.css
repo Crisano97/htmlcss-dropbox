@@ -86,7 +86,7 @@ main {
 .jumbo {
     width: 60%;
     margin: 0 auto;
-    height: 600px; 
+    /* height: 600px;  */
     padding-top: 100px;
 }
 
@@ -96,7 +96,7 @@ main {
 
 .container-top {
     width: 100%;
-    height: 70%;
+    /* height: 70%; */
     display: flex;
     /* position: relative;
     top: 150px; */
@@ -106,14 +106,21 @@ main {
     width: 30%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
+    font-size: 13px;
+    padding-top: 25px;
+}
+
+.jumbo .button {
+    display: inline-block;
 }
 
 
 .container-top .image {
     width: 70%;
     height: 100%;
-    
+    position: relative;
+    top: 50px;
 }
 
 .image img {
@@ -144,6 +151,7 @@ main {
     /* height: 600px; */
     border: 1px solid lightgray;
     font-size: 10px;
+    margin-bottom: 20px;
 }
 
 
@@ -209,13 +217,20 @@ main {
     padding: 10px 0;
 }
 
-
-.sell {
-    width: 100%;
-    height: 200px;
-    background-color: chartreuse;
-
+.info , .caption {
+    padding: 10px 0;
 }
+
+.container-bottom {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid lightgray;
+}
+
+.container-bottom .button {
+    margin: 20px;
+}
+
 
 /* TERZA SEZ */
 
@@ -270,26 +285,26 @@ main {
 
 /* SESTA SEZ */
 
-.container-bottom {
+/* .container-bottom {
     width: 100%;
     height: 400px;
     background-color: darkslategray;
     border: 2px solid white;
-}
+} */
 
 /* SETTIMA SEZ */
 
-.seventh .container-bottom {
+/* .seventh .container-bottom {
     background-color: cornflowerblue;
     height: 200px;
-}
+} */
 
 /* OTTAVA SEZ */
 
-.eighth .container-bottom {
+/* .eighth .container-bottom {
     background-color: white;
     height: 400px;
-}
+} */
 
 
 /* FOOTER */

@@ -108,11 +108,16 @@ main {
     flex-direction: column;
     justify-content: space-around;
     font-size: 13px;
-    padding-top: 25px;
+    margin-top: 35px;
 }
 
 .jumbo .button {
     display: inline-block;
+}
+
+#arrow {
+    font-size: 30px;
+    color: black;
 }
 
 
@@ -120,7 +125,7 @@ main {
     width: 70%;
     height: 100%;
     position: relative;
-    top: 50px;
+    top: 55px;
 }
 
 .image img {
@@ -139,6 +144,29 @@ main {
     padding: 40px 0;
 }
 
+.check {
+    padding-bottom: 40px;
+}
+
+.check span {
+    padding-right: 10px;
+}
+
+.checked {
+    color: blue;
+}
+
+.unchecked {
+    color: gray;
+}
+
+.cost {
+    font-weight: bold;
+}
+
+.idk {
+    color: gray;
+}
 
 
 .second .sct-columns {
@@ -154,9 +182,13 @@ main {
     margin-bottom: 20px;
 }
 
-
+.container i {
+    padding-right: 5px;
+    font-size: 13px;
+}
 
 .user-type {
+    font-size: 12px;
     text-align: center;
     border: 1px solid lightgray;
     padding: 10px;
@@ -173,10 +205,14 @@ main {
 }
 
 .type {
-    padding: 20px 10px 0 10px;
+    /* padding: 20px 10px 0 10px; */
     font-size: 10px;
     display: flex;
     flex-direction: column;
+}
+
+.fa-check {
+    color: blue;
 }
 
 .column ul {
@@ -190,19 +226,7 @@ main {
 .line {
     border-bottom: 2px solid gray;
     width: 50px;
-    /* padding: 20px;
-    margin-left: 20px;
-    margin-bottom: 20px; */
 }
-
-/* .btn-space {
-    padding-top: 20px;
-} */
-
-/* .column #button {
-    font-size: 10px;
-    padding: 10px 20px;
-} */
 
 .highlights {
     padding: 20px 0;
@@ -221,14 +245,27 @@ main {
     padding: 10px 0;
 }
 
+.type-title {
+    font-size: 16px;
+}
+
+.info {
+    font-weight: bold;
+}
+
+.big .container-bottom {
+    padding: 20px;
+    border: 1px solid lightgray;
+}
+
 .container-bottom {
     display: flex;
     justify-content: space-between;
 }
 
-.container-bottom .button {
+/* .container-bottom .button {
     margin: 20px;
-}
+} */
 
 
 /* TERZA SEZ */
@@ -322,6 +359,7 @@ main {
 
 .box {
     width: calc(100% / 2);
+    height: calc(100% / 2);
     padding: 80px;
     display: flex;
     justify-content: center;
@@ -353,7 +391,7 @@ main {
 .m-box {
     width: 100%;
     background-color: lightgray;
-    padding: 30px;
+    padding: 50px 30px;
     font-size: 12px;
 }
 
@@ -406,7 +444,7 @@ main {
     width: 50%;
 }
 
-.container-bottom .button {
+.seventh .container-bottom .button {
     background-color: white;
     color: black;
 }
@@ -438,6 +476,10 @@ main {
 .bold {
     font-weight: bold;
     font-size: 15px;
+}
+
+.eighth i {
+    margin-left: 100px;
 }
 
 

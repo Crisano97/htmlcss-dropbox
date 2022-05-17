@@ -136,7 +136,7 @@ main {
     /* border: 2px solid black; */
 }
 .container .title-2 {
-    line-height: 80px;
+    padding: 40px 0;
 }
 
 
@@ -273,13 +273,12 @@ main {
 
 
 
-.fourth .container .title {
+/* .fourth .container .title {
     width: 100%;
-    height: 100px;
     background-color: aqua;
-}
+} */
 
-.fourth .columns {
+.fourth .sct-columns {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -287,18 +286,24 @@ main {
 
 .fourth .column {
     width: calc(100% / 3 - 20px);
-    height: 400px;
-    background-color: brown;
-    border: 2px solid white;
-    margin-top: 20px;
+    /* height: 400px; */
+    margin-bottom: 40px;
+    font-size: 13px;
+    padding: 0 10px;
+}
+
+.fourth .column .img{
+    width: 100%;
 }
 
 /* QUINTA SEZ */
 
-.fifth .phrase {
-    width: 100%;
-    height: 200px;
-    background-color: azure;
+.fifth a {
+    font-size: 13px;
+}
+
+.fifth .space {
+    padding-right: 40%;
 }
 
 /* SESTA SEZ */

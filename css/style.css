@@ -224,7 +224,6 @@ main {
 .container-bottom {
     display: flex;
     justify-content: space-between;
-    border: 1px solid lightgray;
 }
 
 .container-bottom .button {
@@ -388,17 +387,58 @@ main {
 
 /* SETTIMA SEZ */
 
-/* .seventh .container-bottom {
-    background-color: cornflowerblue;
-    height: 200px;
-} */
+.seventh {
+    width: 100%;
+    background-color: #b4d0e7;
+}
+
+.seventh .container-bottom {
+    width: 60%;
+    margin: 0 auto;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.seventh .container-bottom .title-2 {
+    color: #61082b;
+    width: 50%;
+}
+
+.container-bottom .button {
+    background-color: white;
+    color: black;
+}
 
 /* OTTAVA SEZ */
 
-/* .eighth .container-bottom {
+.eighth  {
     background-color: white;
-    height: 400px;
-} */
+}
+
+.eighth .container-bottom {
+    width: 60%;
+    margin: 0 auto;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.eighth .container-bottom .title-2 {
+    padding: 40px 0;
+    border-bottom: 1px solid gray;
+}
+
+.eighth .container-bottom .ask {
+    padding: 40px 0;
+    border-bottom: 1px solid gray;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 15px;
+}
 
 
 /* FOOTER */
@@ -406,11 +446,45 @@ main {
 footer {
     background-color: black;
     width: 100%;
+    padding: 50px;
+    border-bottom: 3px solid gray;
 }
 
 .ft-container {
     width: 70%;
     margin: 0 auto;
-    height: 500px;
-    background-color: beige;
+    /* height: 500px; */
+    /* background-color: beige; */
+    display: flex;
+    justify-content: space-between;
 }
+
+.ft-col {
+    width: calc(100% / 5 - 20px);
+    color: white;
+}
+
+.ft-col ul {
+    display: block;
+    list-style: none;
+    /* padding-left: 20px; */
+    line-height: 40px;
+    /* font-weight: 600; */
+    font-size: 13px;
+}
+
+.ft-col ul li:first-child {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 0;
+}
+
+.language {
+    color: gray;
+    margin: 0 215px;
+}
+
+footer .line {
+    margin: 50px 0 ;
+}
+

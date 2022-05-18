@@ -5,7 +5,7 @@
 }
 
 body {
-    /* background-color: darkgray; */
+    overflow-x: hidden;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -61,15 +61,9 @@ nav a {
     text-decoration: none;
 }
 
-/* #small-btn-container {
-    padding: 10px 55px;
-} */
-
-
 .left img {
     width: 100px;
 }
-
 
 /* MAIN */
 
@@ -87,7 +81,6 @@ main {
 .jumbo {
     width: 60%;
     margin: 0 auto;
-    /* height: 600px;  */
     padding-top: 100px;
 }
 
@@ -97,10 +90,7 @@ main {
 
 .container-top {
     width: 100%;
-    /* height: 70%; */
     display: flex;
-    /* position: relative;
-    top: 150px; */
 }
 
 .container-top .desc {
@@ -121,7 +111,6 @@ main {
     color: black;
 }
 
-
 .container-top .image {
     width: 70%;
     height: 100%;
@@ -138,9 +127,8 @@ main {
 .container {
     width: 50%;
     margin: 50px auto;
-    /* height: 500px; */
-    /* border: 2px solid black; */
 }
+
 .container .title-2 {
     padding: 40px 0;
 }
@@ -169,7 +157,6 @@ main {
     color: gray;
 }
 
-
 .second .sct-columns {
     display: flex;
     justify-content: space-between;
@@ -177,7 +164,6 @@ main {
 
 .second .column {
     width: calc(100% / 3 - 20px);
-    /* height: 600px; */
     border: 1px solid lightgray;
     font-size: 10px;
     margin-bottom: 20px;
@@ -192,8 +178,7 @@ main {
     font-size: 12px;
     text-align: center;
     border: 1px solid lightgray;
-    padding: 10px;
-    
+    padding: 10px;    
 }
 
 .card {
@@ -206,7 +191,6 @@ main {
 }
 
 .type {
-    /* padding: 20px 10px 0 10px; */
     font-size: 10px;
     display: flex;
     flex-direction: column;
@@ -264,11 +248,6 @@ main {
     justify-content: space-between;
 }
 
-/* .container-bottom .button {
-    margin: 20px;
-} */
-
-
 /* TERZA SEZ */
 
 .third .container {
@@ -305,15 +284,7 @@ main {
     margin-top: 20px;
 }
 
-
 /* QUARTA SEZ */
-
-
-
-/* .fourth .container .title {
-    width: 100%;
-    background-color: aqua;
-} */
 
 .fourth .sct-columns {
     display: flex;
@@ -323,7 +294,6 @@ main {
 
 .fourth .column {
     width: calc(100% / 3 - 20px);
-    /* height: 400px; */
     margin-bottom: 40px;
     font-size: 13px;
     padding: 0 10px;
@@ -347,13 +317,12 @@ main {
 
 .container-bottom {
     width: 100%;
-    /* height: 500px; */
-    display: flex;
-    
+    display: flex; 
 }
 
 .sixth .container-bottom {
-    height: 506px;
+    width: 100vw;
+    height: calc(100vw / 3);
 }
 
 .c-box {
@@ -487,7 +456,6 @@ main {
     margin-left: 100px;
 }
 
-
 /* FOOTER */
 
 footer {
@@ -500,8 +468,6 @@ footer {
 .ft-container {
     width: 70%;
     margin: 0 auto;
-    /* height: 500px; */
-    /* background-color: beige; */
     display: flex;
     justify-content: space-between;
 }
@@ -514,9 +480,7 @@ footer {
 .ft-col ul {
     display: block;
     list-style: none;
-    /* padding-left: 20px; */
     line-height: 40px;
-    /* font-weight: 600; */
     font-size: 13px;
 }
 

@@ -346,6 +346,10 @@ main {
     align-items: center;
 }
 
+.box:hover {
+    border: 20px solid rgba(255, 255 ,255, 0.5);
+}
+
 .color-1 {
     background-color: #a2d39b;
 }
@@ -364,7 +368,7 @@ main {
 }
 
 .box img {
-    width: 100px;
+    width: 100%;
     filter: invert(1);
 }
 

@@ -92,6 +92,11 @@ nav a {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+.dropdown-content a {
+    background-color: #61082b;
+    color: white;
+}
 /* MAIN */
 
 main {

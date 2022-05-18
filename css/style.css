@@ -524,14 +524,15 @@ main {
 footer {
     background-color: black;
     width: 100%;
-    padding: 50px;
+    padding: 50px 0;
     border-bottom: 3px solid gray;
 }
 
 .ft-container {
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -555,7 +556,6 @@ footer {
 
 .language {
     color: gray;
-    margin: 0 215px;
 }
 
 footer .line {
